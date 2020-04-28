@@ -5,7 +5,7 @@ class Courses extends Component {
   render(){
     function SkillCard(props) {
       return (
-        <div className="skill-item-wrapper col-md-3">
+        <div className="skill-item-wrapper col-lg-3 col-md-4 col-sm-6 col-xs-12">
           <div className="skill-item">
             <h2>{props.title}</h2>
             <img src={props.image} width="100px" height="110px" alt={props.title} />
@@ -19,7 +19,7 @@ class Courses extends Component {
       <div class="courses container">
         <div className="row">
           <div className="col-md-12">
-            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Kelas Tersedia</h2></div>
+            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Pemrograman</h2></div>
           </div>
           <SkillCard
             title="HTML & CSS"

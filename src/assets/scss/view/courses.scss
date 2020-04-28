@@ -27,7 +27,7 @@
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px;
   border-radius: 3px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out;
   padding: 4rem 3rem;
   text-align: center;
   cursor: pointer;
@@ -38,6 +38,9 @@
     margin: 1.75rem 0;
     display: block;
   }
+}
+.skill-item:hover{
+  box-shadow: rgba(0, 0, 0, 0.075) 6px 6px 24px;
 }
 .skill-desc{
   height: 60px;
