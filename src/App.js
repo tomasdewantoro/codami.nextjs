@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import CodeEditor from './components/editor.jsx';
+import Navigation from './components/navigation';
 
 class App extends Component {
   render() {
     return (
-      <div style={{width:'75%', height:'50vh'}}>
-        <CodeEditor />
-      </div>
+      <Navigation />
     );
   }
 }

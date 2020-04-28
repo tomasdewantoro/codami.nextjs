@@ -10,7 +10,7 @@ body {
 
 @import './codeeditor/head.scss';
 @import './codeeditor/codebody.scss';
-
+@import './component/navigation.scss';
 
 html {
   height: 100%;
@@ -21,4 +21,8 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+.float-left{
+  float:left;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MainLayout from '../layouts/main';
 
 class Courses extends Component {
   render(){
@@ -10,4 +11,4 @@ class Courses extends Component {
   }
 }
 
-export default Courses;
+export default MainLayout(Courses);
