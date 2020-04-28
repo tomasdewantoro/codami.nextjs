@@ -6,7 +6,7 @@ class Navigation extends Component{
       <>
         <nav role="navigation" className="mainnav">
             <div className="container">
-                <div className="header-logo"><img src="https://mockflow.com/images/home-images2/mf-logo2x.png" height="26px" /></div>
+                <div className="header-logo"><img src="https://mockflow.com/images/home-images2/mf-logo2x.png" height="26px" alt="logo" /></div>
                 <div className="header-list">
                     <ul className="listedmenu">
                         <li>About</li>

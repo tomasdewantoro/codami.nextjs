@@ -1,13 +1,6 @@
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .header-logo {
 float: left;
-font-size: 24px;
+font-size: 20px;
 padding: 12px 40px;
 }
 .header-list{
@@ -20,7 +13,7 @@ padding: 12px 40px;
 .header-list .listedmenu li {
 float: left;
 padding: 19px 20px;
-font-size:.9rem;
+font-size:1rem;
 cursor: pointer;
 }
 .header-list .listedmenu li:hover{
@@ -34,7 +27,7 @@ background: #b7326b;
 
 .mainnav{
 z-index: 999;
-position: fixed;
+position: sticky;
 top:0;
 left:0;
 width: 100vw;
@@ -44,7 +37,7 @@ color:black;
 text-align: center;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: center;;
 }
 
 
