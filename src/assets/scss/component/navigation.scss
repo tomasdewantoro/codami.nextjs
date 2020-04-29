@@ -13,16 +13,16 @@ padding: 12px 40px;
 .header-list .listedmenu li {
 float: left;
 padding: 19px 20px;
-font-size:1rem;
+font-size:.85rem;
 cursor: pointer;
 }
 .header-list .listedmenu li:hover{
-background: #e94d90;
+background: $color-primary;
 color: white;
 transition: .3s background-color, color;
 }
 .header-list .listedmenu li:active, .header-list .listedmenu li:focus{
-background: #b7326b;
+background: $color-secondary;
 }
 
 .mainnav{
@@ -133,7 +133,7 @@ transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 #mobilemenu li{
   cursor: pointer;
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 #mobilemenu li:focus{
   outline:none;

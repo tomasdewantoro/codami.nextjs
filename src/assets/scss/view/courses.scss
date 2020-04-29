@@ -3,7 +3,7 @@
   padding-top: 48px;
   display: flex;
   h2{
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     padding-left: 15px;
     align-items: center;
   }
@@ -17,7 +17,7 @@
     display: block;
     margin: 0 auto 2%;
     padding: 0 1.1%;
-    font-size: 1.1rem;
+    font-size: .85rem;
 }
 .skill-item{
   background:white;
@@ -32,7 +32,7 @@
   text-align: center;
   cursor: pointer;
   h2{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   img{
     margin: 1.75rem 0;
@@ -47,10 +47,75 @@
 }
 
 .course-title{
-  margin-top:6rem;
+  margin:6rem 0;
   text-align: center;
   h2{
     font-weight: normal;
     font-size: 1.2rem;
   }
+}
+
+.item-kelas-tool {
+  overflow: hidden;
+  margin-bottom: 10px;
+  img {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .description{
+    float: left;
+    overflow: hidden;
+    margin-left: 12px;
+  }
+}
+
+.course-list-title{
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.course-topics{
+  .topic{
+    font-size: .9rem;
+    border-radius: 8px;
+    display: block;
+    padding: 1rem;
+    margin-bottom: 8px;
+    background: whitesmoke;
+    .disabled{
+      color:$color-disabled;
+    }
+  }
+}
+.course-topics .active{
+  background:$color-primary;
+  .topic-link{
+    color:$color-fifth;
+  }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $color-secondary;
+  border-color: $color-secondary;
+}
+.cta-enroll{
+  display: block;
+  width: 100%;
+  padding: 1.25rem 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.course-detail-sidebar, .course-details{
+  margin-top:3rem;
+}
+
+.requirements{
+  font-size: 1.25rem;
+  margin-top:1rem;
+}
+
+.item-syarat{
+  margin-top:2rem;
 }
