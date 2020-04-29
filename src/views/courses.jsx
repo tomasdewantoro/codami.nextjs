@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MainLayout from '../layouts/main';
+import { Link } from 'react-router-dom';
 
 class Courses extends Component {
   render(){
@@ -19,13 +20,21 @@ class Courses extends Component {
       <div class="courses container">
         <div className="row">
           <div className="col-md-12">
+            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Desain Grafis</h2></div>
+          </div>
+          <div className="col-md-12">
+            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Fotogari</h2></div>
+          </div>
+          <div className="col-md-12">
             <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Pemrograman</h2></div>
           </div>
-          <SkillCard
-            title="HTML & CSS"
-            desc="Bahasa digunakan untuk membuat dan mendesain tampilan setiap situs web."
-            image="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg"
-          />
+          <Link to="/course-detail/html-css">
+            <SkillCard
+              title="HTML & CSS"
+              desc="Bahasa digunakan untuk membuat dan mendesain tampilan setiap situs web."
+              image="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg"
+            />
+          </Link>
           <SkillCard
             title="JavaScript"
             desc="Bahasa fleksibel yang digunakan di mana saja, mulai dari
