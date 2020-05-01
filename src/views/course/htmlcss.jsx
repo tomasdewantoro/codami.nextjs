@@ -48,6 +48,7 @@ class HtmlCSS extends Component{
                     <a href="#-WI3GwU5Pwc" class="topic-link">Upload Photo</a>
                   </li>
                   <li class="topic">
+                    {/* eslint-disable-next-line*/}
                     <a href="#" class="topic-link disabled">113 Video Lainnya <i class="material-icons">lock</i></a>
                   </li>
                 </ul>
@@ -77,7 +78,7 @@ class HtmlCSS extends Component{
                       Android Studio
                     </p>
                     <p class="font-weight-light link">
-                      <a target="_blank" href="https://developer.android.com/studio">Download</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://developer.android.com/studio">Download</a>
                     </p>
                   </div>
                 </div>
@@ -88,7 +89,7 @@ class HtmlCSS extends Component{
                       Adobe XD
                     </p>
                     <p class="font-weight-light link">
-                      <a target="_blank" href="https://www.adobe.com/sea/products/xd.html">Download</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://www.adobe.com/sea/products/xd.html">Download</a>
                     </p>
                   </div>
                 </div>
@@ -99,7 +100,7 @@ class HtmlCSS extends Component{
                       InVision App
                     </p>
                     <p class="font-weight-light link">
-                      <a target="_blank" href="https://invisionapp.com">Download</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://invisionapp.com">Download</a>
                     </p>
                   </div>
                 </div>
@@ -110,7 +111,7 @@ class HtmlCSS extends Component{
                       Maze Design
                     </p>
                     <p class="font-weight-light link">
-                      <a target="_blank" href="https://maze.design/">Download</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://maze.design/">Download</a>
                     </p>
                 </div>
                 </div>
@@ -121,7 +122,7 @@ class HtmlCSS extends Component{
                             Kotlin
                         </p>
                         <p class="font-weight-light link">
-                            <a target="_blank" href="https://kotlinlang.org/">Download</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://kotlinlang.org/">Download</a>
                         </p>
                     </div>
                 </div>
