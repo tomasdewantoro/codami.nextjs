@@ -20,12 +20,6 @@ class Courses extends Component {
       <div class="courses container">
         <div className="row">
           <div className="col-md-12">
-            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Desain Grafis</h2></div>
-          </div>
-          <div className="col-md-12">
-            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Fotogari</h2></div>
-          </div>
-          <div className="col-md-12">
             <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Pemrograman</h2></div>
           </div>
           <Link to="/course-detail/html-css">
@@ -50,6 +44,23 @@ class Courses extends Component {
             title="Node.js"
             desc="Bahasa digunakan untuk membuat dan mendesain tampilan setiap situs web."
             image="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg"
+          />
+
+          <div className="col-md-12">
+            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Desain Grafis</h2></div>
+          </div>
+          <SkillCard
+            title="Coming soon"
+            desc="di tunggu ya, dalam kurun waktu dekap akan kami hadirkan kelas desain buat kamu."
+            image="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/es6-f27d15ffcd93edaaf6ade3c76c857d6890ade85e91fee07fb5a39458b2195c9c.svg"
+          />
+          <div className="col-md-12">
+            <div className="section-title"><img src="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/html-d55f9f9c51ce7c499c71c8c50d012164782602def8da6e623d50bc523e71fe3d.svg" alt="course list" height="25px" /><h2>Fotogari</h2></div>
+          </div>
+          <SkillCard
+            title="Coming soon"
+            desc="di tunggu ya, dalam kurun waktu dekap akan kami hadirkan kelas desain buat kamu."
+            image="https://d2aj9sy12tbpym.cloudfront.net/assets/languages/language_list/es6-f27d15ffcd93edaaf6ade3c76c857d6890ade85e91fee07fb5a39458b2195c9c.svg"
           />
         </div>
       </div>
