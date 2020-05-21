@@ -8,13 +8,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@import './variables/variables';
+@import './spacing';
 @import './grid.scss';
+//@import './external/bootstrap';
 @import '../palette/primary.scss';
 @import './codeeditor/head.scss';
 @import './codeeditor/codebody.scss';
 @import './component/navigation.scss';
 @import './view/courses.scss';
 
+.h100vh{
+  height: calc(100vh - 58px);
+}
+
+.align-item-center{
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.d-flex{
+  display: flex;
+}
 //video
 .vplayer{
   .player{
